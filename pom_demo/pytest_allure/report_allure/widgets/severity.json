@@ -1,0 +1,61 @@
+[ {
+  "uid" : "893d6f51861b026f",
+  "name" : "测试用例001：通过微信正常注册男用户",
+  "time" : {
+    "start" : 1619764126421,
+    "stop" : 1619764126421,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5bd130b0cb8f9aa",
+  "name" : "测试用例004：密码为空提交注册信息",
+  "time" : {
+    "start" : 1619764126670,
+    "stop" : 1619764126670,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "58f0794b660a731b",
+  "name" : "测试用例002：通过微信正常注册女用户",
+  "time" : {
+    "start" : 1619764126425,
+    "stop" : 1619764126425,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb73cc8d3a1ddbcf",
+  "name" : "测试用例006：用户名超长提交注册信息",
+  "time" : {
+    "start" : 1619764126715,
+    "stop" : 1619764126715,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "83a179e2940eb012",
+  "name" : "测试用例003：用户名为空提交注册信息",
+  "time" : {
+    "start" : 1619764126428,
+    "stop" : 1619764126429,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ce67dd0a3790679",
+  "name" : "测试用例005：用户名存在特殊字符",
+  "time" : {
+    "start" : 1619764126705,
+    "stop" : 1619764126705,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

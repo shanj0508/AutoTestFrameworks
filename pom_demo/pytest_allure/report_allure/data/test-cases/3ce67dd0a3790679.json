@@ -1,0 +1,62 @@
+{
+  "uid" : "3ce67dd0a3790679",
+  "name" : "测试用例005：用户名存在特殊字符",
+  "fullName" : "test_allure#test_case05",
+  "historyId" : "7f3ec14765b36cbd09bed0216d93051f",
+  "time" : {
+    "start" : 1619764126705,
+    "stop" : 1619764126705,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 5",
+  "statusTrace" : "@allure.feature('测试需求001，用户注册')\n    @allure.story('测试场景002，微信用户注册校验')\n    @allure.title('测试用例005：用户名存在特殊字符')\n    def test_case05():\n>       assert 1==5\nE       assert 1 == 5\n\ntest_allure.py:38: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试场景002，微信用户注册校验"
+  }, {
+    "name" : "feature",
+    "value" : "测试需求001，用户注册"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ATELKEB"
+  }, {
+    "name" : "thread",
+    "value" : "20680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3ce67dd0a3790679.json",
+  "parameterValues" : [ ]
+}

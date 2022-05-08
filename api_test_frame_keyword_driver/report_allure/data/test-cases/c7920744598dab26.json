@@ -1,0 +1,196 @@
+{
+  "uid" : "c7920744598dab26",
+  "name" : "test_getuserinfo",
+  "fullName" : "case.test_case03.Test_ApiCase#test_getuserinfo",
+  "historyId" : "22bad8ddb8bdf7d93d936d12873e4f48",
+  "time" : {
+    "start" : 1639490574350,
+    "stop" : 1639490574520,
+    "duration" : 170
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '展昭' == '风清扬'\n  - 风清扬\n  + 展昭",
+  "statusTrace" : "self = <class45.pytest_intf.case.test_case03.Test_ApiCase object at 0x000002E9968179D0>\n\n    @allure.story(\"02.个人用户查询接口测试\")\n    def test_getuserinfo(self):\n        # 初始化工具类\n        ak = ApiKey()\n        with allure.step(\"发送接口登陆请求\"):\n            # 定义接口url\n            url = 'http://39.98.138.157:5000/api/login'\n            data = {\n                'username': 'admin',\n                'password': '123456'\n            }\n            res = ak.post(url=url,json=data)\n        with allure.step(\"发送个人查询接口请求\"):\n            url = 'http://39.98.138.157:5000/api/getuserinfo'\n            headers = {\n                'token': res.json()['token']\n            }\n            res1 = ak.get(url=url, headers=headers)\n            print(res1.text)\n        with allure.step(\"返回结果校验\"):\n            name = ak.get_text(res1.text, 'nikename')\n>           assert \"展昭\" == name\nE           AssertionError: assert '展昭' == '风清扬'\nE             - 风清扬\nE             + 展昭\n\ncase\\test_case03.py:60: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '展昭' == '风清扬'\n  - 风清扬\n  + 展昭",
+    "statusTrace" : "self = <class45.pytest_intf.case.test_case03.Test_ApiCase object at 0x000002E9968179D0>\n\n    @allure.story(\"02.个人用户查询接口测试\")\n    def test_getuserinfo(self):\n        # 初始化工具类\n        ak = ApiKey()\n        with allure.step(\"发送接口登陆请求\"):\n            # 定义接口url\n            url = 'http://39.98.138.157:5000/api/login'\n            data = {\n                'username': 'admin',\n                'password': '123456'\n            }\n            res = ak.post(url=url,json=data)\n        with allure.step(\"发送个人查询接口请求\"):\n            url = 'http://39.98.138.157:5000/api/getuserinfo'\n            headers = {\n                'token': res.json()['token']\n            }\n            res1 = ak.get(url=url, headers=headers)\n            print(res1.text)\n        with allure.step(\"返回结果校验\"):\n            name = ak.get_text(res1.text, 'nikename')\n>           assert \"展昭\" == name\nE           AssertionError: assert '展昭' == '风清扬'\nE             - 风清扬\nE             + 展昭\n\ncase\\test_case03.py:60: AssertionError",
+    "steps" : [ {
+      "name" : "发送接口登陆请求",
+      "time" : {
+        "start" : 1639490574350,
+        "stop" : 1639490574436,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "发送post请求",
+        "time" : {
+          "start" : 1639490574350,
+          "stop" : 1639490574436,
+          "duration" : 86
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "'http://39.98.138.157:5000/api/login'"
+        }, {
+          "name" : "json",
+          "value" : "{'username': 'admin', 'password': '123456'}"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "发送个人查询接口请求",
+      "time" : {
+        "start" : 1639490574436,
+        "stop" : 1639490574516,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "发送get请求",
+        "time" : {
+          "start" : 1639490574436,
+          "stop" : 1639490574514,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "'http://39.98.138.157:5000/api/getuserinfo'"
+        }, {
+          "name" : "headers",
+          "value" : "{'token': '23657DGYUSGD126731638712GE18271H'}"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回结果校验",
+      "time" : {
+        "start" : 1639490574516,
+        "stop" : 1639490574520,
+        "duration" : 4
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '展昭' == '风清扬'\n  - 风清扬\n  + 展昭\n",
+      "statusTrace" : "  File \"D:\\cemaclass\\PycharmProjects\\ADEMO\\class45\\pytest_intf\\case\\test_case03.py\", line 60, in test_getuserinfo\n    assert \"展昭\" == name\n",
+      "steps" : [ {
+        "name" : "获取返回结果字典值",
+        "time" : {
+          "start" : 1639490574518,
+          "stop" : 1639490574518,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "data",
+          "value" : "'{\n  \"data\": [\n    {\n      \"nikename\": \"风清扬\", \n      \"openid\": \"UEHUXUXU78272SDSassDD\", \n      \"userbalance\": 5678.9, \n      \"userid\": 17890, \n      \"username\": \"admin\", \n      \"userpoints\": 4321\n    }\n  ], \n  \"httpstatus\": 200\n}\n'"
+        }, {
+          "name" : "key",
+          "value" : "'nikename'"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "893343f2f3353de5",
+      "name" : "stdout",
+      "source" : "893343f2f3353de5.txt",
+      "type" : "text/plain",
+      "size" : 236
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "02.个人用户查询接口测试"
+  }, {
+    "name" : "epic",
+    "value" : "接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case03"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ApiCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IT6V6FE6"
+  }, {
+    "name" : "thread",
+    "value" : "20836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_case03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c7920744598dab26.json",
+  "parameterValues" : [ ]
+}

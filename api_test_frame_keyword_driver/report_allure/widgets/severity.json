@@ -1,0 +1,41 @@
+[ {
+  "uid" : "c7920744598dab26",
+  "name" : "test_getuserinfo",
+  "time" : {
+    "start" : 1639490574350,
+    "stop" : 1639490574520,
+    "duration" : 170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9250d84de182c11",
+  "name" : "test_1[输入正确账号,密码，登陆成功]",
+  "time" : {
+    "start" : 1639490574064,
+    "stop" : 1639490574147,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9706e738155d20",
+  "name" : "test_1[输入错误账号,密码，登陆失败0]",
+  "time" : {
+    "start" : 1639490574153,
+    "stop" : 1639490574241,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8208c8a2ae3eae0",
+  "name" : "test_1[输入错误账号,密码，登陆失败1]",
+  "time" : {
+    "start" : 1639490574245,
+    "stop" : 1639490574346,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

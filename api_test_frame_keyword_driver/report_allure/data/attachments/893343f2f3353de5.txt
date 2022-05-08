@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "nikename": "风清扬", 
+      "openid": "UEHUXUXU78272SDSassDD", 
+      "userbalance": 5678.9, 
+      "userid": 17890, 
+      "username": "admin", 
+      "userpoints": 4321
+    }
+  ], 
+  "httpstatus": 200
+}
+

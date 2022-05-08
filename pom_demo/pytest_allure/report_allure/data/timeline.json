@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-ATELKEB",
+    "children" : [ {
+      "name" : "20680-MainThread",
+      "children" : [ {
+        "name" : "测试用例003：用户名为空提交注册信息",
+        "uid" : "83a179e2940eb012",
+        "parentUid" : "56b0e76b0ce34dd37f1a6de55bbbfe27",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619764126428,
+          "stop" : 1619764126429,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例006：用户名超长提交注册信息",
+        "uid" : "cb73cc8d3a1ddbcf",
+        "parentUid" : "56b0e76b0ce34dd37f1a6de55bbbfe27",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619764126715,
+          "stop" : 1619764126715,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例004：密码为空提交注册信息",
+        "uid" : "c5bd130b0cb8f9aa",
+        "parentUid" : "56b0e76b0ce34dd37f1a6de55bbbfe27",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619764126670,
+          "stop" : 1619764126670,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例002：通过微信正常注册女用户",
+        "uid" : "58f0794b660a731b",
+        "parentUid" : "56b0e76b0ce34dd37f1a6de55bbbfe27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619764126425,
+          "stop" : 1619764126425,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例005：用户名存在特殊字符",
+        "uid" : "3ce67dd0a3790679",
+        "parentUid" : "56b0e76b0ce34dd37f1a6de55bbbfe27",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619764126705,
+          "stop" : 1619764126705,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例001：通过微信正常注册男用户",
+        "uid" : "893d6f51861b026f",
+        "parentUid" : "56b0e76b0ce34dd37f1a6de55bbbfe27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619764126421,
+          "stop" : 1619764126421,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56b0e76b0ce34dd37f1a6de55bbbfe27"
+    } ],
+    "uid" : "b9bf1c5eab519c0a0036a1d895b22439"
+  } ],
+  "name" : "timeline"
+}

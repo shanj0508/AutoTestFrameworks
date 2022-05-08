@@ -1,0 +1,62 @@
+{
+  "uid" : "cb73cc8d3a1ddbcf",
+  "name" : "测试用例006：用户名超长提交注册信息",
+  "fullName" : "test_allure#test_case06",
+  "historyId" : "8e3ce49a65e7334e02c8e7f600e66ea1",
+  "time" : {
+    "start" : 1619764126715,
+    "stop" : 1619764126715,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 6",
+  "statusTrace" : "@allure.feature('测试需求001，用户注册')\n    @allure.story('测试场景002，微信用户注册校验')\n    @allure.title('测试用例006：用户名超长提交注册信息')\n    def test_case06():\n>       assert 1==6\nE       assert 1 == 6\n\ntest_allure.py:44: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试场景002，微信用户注册校验"
+  }, {
+    "name" : "feature",
+    "value" : "测试需求001，用户注册"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ATELKEB"
+  }, {
+    "name" : "thread",
+    "value" : "20680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cb73cc8d3a1ddbcf.json",
+  "parameterValues" : [ ]
+}

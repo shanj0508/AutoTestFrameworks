@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case.test_case03",
+    "children" : [ {
+      "name" : "test_1[输入正确账号,密码，登陆成功]",
+      "uid" : "9250d84de182c11",
+      "parentUid" : "73d659664a4b2a3ce54a8677f54dbfed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639490574064,
+        "stop" : 1639490574147,
+        "duration" : 83
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'user': {'username': 'admin', 'password': '123456'}, 'msg': 'success'}" ]
+    }, {
+      "name" : "test_1[输入错误账号,密码，登陆失败0]",
+      "uid" : "b9706e738155d20",
+      "parentUid" : "73d659664a4b2a3ce54a8677f54dbfed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639490574153,
+        "stop" : 1639490574241,
+        "duration" : 88
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'user': {'username': 'admin1', 'password': '1234561'}, 'msg': '用户名或密码错误'}" ]
+    }, {
+      "name" : "test_1[输入错误账号,密码，登陆失败1]",
+      "uid" : "f8208c8a2ae3eae0",
+      "parentUid" : "73d659664a4b2a3ce54a8677f54dbfed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639490574245,
+        "stop" : 1639490574346,
+        "duration" : 101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'user': {'username': 'admin2', 'password': '1234562'}, 'msg': '用户名或密码错误'}" ]
+    }, {
+      "name" : "test_getuserinfo",
+      "uid" : "c7920744598dab26",
+      "parentUid" : "73d659664a4b2a3ce54a8677f54dbfed",
+      "status" : "failed",
+      "time" : {
+        "start" : 1639490574350,
+        "stop" : 1639490574520,
+        "duration" : 170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "case.test_case03"
+  } ]
+}

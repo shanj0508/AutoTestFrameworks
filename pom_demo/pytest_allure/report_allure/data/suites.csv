@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Apr 30 14:28:46 CST 2021","Fri Apr 30 14:28:46 CST 2021","0","","test_allure","","","","测试用例004：密码为空提交注册信息",""
+"failed","Fri Apr 30 14:28:46 CST 2021","Fri Apr 30 14:28:46 CST 2021","0","","test_allure","","","","测试用例006：用户名超长提交注册信息",""
+"passed","Fri Apr 30 14:28:46 CST 2021","Fri Apr 30 14:28:46 CST 2021","0","","test_allure","","","","测试用例002：通过微信正常注册女用户",""
+"passed","Fri Apr 30 14:28:46 CST 2021","Fri Apr 30 14:28:46 CST 2021","0","","test_allure","","","","测试用例001：通过微信正常注册男用户",""
+"failed","Fri Apr 30 14:28:46 CST 2021","Fri Apr 30 14:28:46 CST 2021","1","","test_allure","","","","测试用例003：用户名为空提交注册信息",""
+"failed","Fri Apr 30 14:28:46 CST 2021","Fri Apr 30 14:28:46 CST 2021","0","","test_allure","","","","测试用例005：用户名存在特殊字符",""

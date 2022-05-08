@@ -1,0 +1,138 @@
+{
+  "uid" : "b9706e738155d20",
+  "name" : "test_1[输入错误账号,密码，登陆失败0]",
+  "fullName" : "case.test_case03.Test_ApiCase#test_1",
+  "historyId" : "fa45adfb4b7621e86af7fb220477f50a",
+  "time" : {
+    "start" : 1639490574153,
+    "stop" : 1639490574241,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1639490574153,
+        "stop" : 1639490574239,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://39.98.138.157:5000/api/login'"
+      }, {
+        "name" : "json",
+        "value" : "{'username': 'admin1', 'password': '1234561'}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "校验响应结果",
+      "time" : {
+        "start" : 1639490574240,
+        "stop" : 1639490574240,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回结果字典值",
+        "time" : {
+          "start" : 1639490574240,
+          "stop" : 1639490574240,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "data",
+          "value" : "'{\n  \"code\": \"001\", \n  \"msg\": \"用户名或密码错误\"\n}\n'"
+        }, {
+          "name" : "key",
+          "value" : "'msg'"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "24bbca0fec6bfa5e",
+      "name" : "stdout",
+      "source" : "24bbca0fec6bfa5e.txt",
+      "type" : "text/plain",
+      "size" : 84
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "01.登陆接口测试"
+  }, {
+    "name" : "epic",
+    "value" : "接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case03"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ApiCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IT6V6FE6"
+  }, {
+    "name" : "thread",
+    "value" : "20836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_case03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userData",
+    "value" : "{'user': {'username': 'admin1', 'password': '1234561'}, 'msg': '用户名或密码错误'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9706e738155d20.json",
+  "parameterValues" : [ "{'user': {'username': 'admin1', 'password': '1234561'}, 'msg': '用户名或密码错误'}" ]
+}

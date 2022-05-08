@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1 == 3",
+      "children" : [ {
+        "name" : "测试用例003：用户名为空提交注册信息",
+        "uid" : "83a179e2940eb012",
+        "parentUid" : "3cf866d47a780b101bbe5ac274604b7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619764126428,
+          "stop" : 1619764126429,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cf866d47a780b101bbe5ac274604b7c"
+    }, {
+      "name" : "AssertionError: assert 1 == 4",
+      "children" : [ {
+        "name" : "测试用例004：密码为空提交注册信息",
+        "uid" : "c5bd130b0cb8f9aa",
+        "parentUid" : "66a06bed560f03e8b667fb18cec5b819",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619764126670,
+          "stop" : 1619764126670,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66a06bed560f03e8b667fb18cec5b819"
+    }, {
+      "name" : "AssertionError: assert 1 == 5",
+      "children" : [ {
+        "name" : "测试用例005：用户名存在特殊字符",
+        "uid" : "3ce67dd0a3790679",
+        "parentUid" : "da92636463bbe29c0820e19a5ec486f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619764126705,
+          "stop" : 1619764126705,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da92636463bbe29c0820e19a5ec486f1"
+    }, {
+      "name" : "AssertionError: assert 1 == 6",
+      "children" : [ {
+        "name" : "测试用例006：用户名超长提交注册信息",
+        "uid" : "cb73cc8d3a1ddbcf",
+        "parentUid" : "0a2aaaf08fd2693f76f7f2daaee573c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619764126715,
+          "stop" : 1619764126715,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a2aaaf08fd2693f76f7f2daaee573c3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
